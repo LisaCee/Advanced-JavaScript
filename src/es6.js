@@ -9,6 +9,8 @@
 
 var food = 'pineapple';
 
+
+
 var isMyFavoriteFood = function(food) {
   food = food || 'thousand-year-old egg'; //This sets a default value if `food` is falsey
   return food === 'thousand-year-old egg';
